@@ -40,7 +40,7 @@ jobs:
         ### SCANNING: Required fields
         polaris_server_url: ${{ secrets.POLARIS_SERVER_URL }}
         polaris_access_token: ${{ secrets.POLARIS_ACCESS_TOKEN }}
-        polaris_assessment_types: "SAST,SCA"
+        polaris_assessment_types: "SAST"
 
         ### PULL REQUEST COMMENTS
         polaris_prComment_enabled: true
